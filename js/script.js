@@ -9,6 +9,7 @@ const createPet = function (name, species) {
 
         sleep: function () {
             console.log(`${this.name} needs a nap. Zzz...`);
+            this.isTired = 1;
         },
 
         play: function () {
@@ -29,4 +30,12 @@ const clover = createPet("Clover", "rabbit");
 const baxter = createPet("Baxter", "hamster");
 const cleo = createPet("Cleo", "rat");
 const francine = createPet("Francine", "turtle");
+
+//console.log(sora, clover, baxter, cleo, francine);
+/*
+clover.sleep();
+baxter.play();
+
+console.log(clover, baxter);
+*/
 
